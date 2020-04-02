@@ -7,7 +7,7 @@
 # except the one at i
 #
 
-l = [3, 2 , 1]
+l = [1, 2, 3, 4, 5]
 lsize = len(l)
 
 
