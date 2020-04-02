@@ -1,5 +1,5 @@
 #problem 1 
-#
+
 #Given a list of numbers and a number k
 #Return whether any two numbers from the list add up to k
 
@@ -29,6 +29,7 @@ def sum(lst, k):
 
             if sum_num == k:
                 #return the values used to match the k value
+                print("there's a match with k = ", k, "and ", base_num, " + ", lst[j])
                 return base_num, lst[j]
     
     #return false if nothing matches            
@@ -39,4 +40,4 @@ r = sum(l, k)
 if not r:
     print("No matches found!")
 else:
-    print("there's a match!")
+    print("End!")
