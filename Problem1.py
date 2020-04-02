@@ -7,7 +7,7 @@
 l = [15, 13, 10 , 7]
 k = 17
 
-#will be used for recursion
+#get length of list
 l_len = len(l)
 
 def sum(lst, k):
